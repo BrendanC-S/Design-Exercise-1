@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args){
 		DrinkStack flight128=new DrinkStack();
 	
-		for(int i=18;i>0;i--) {
+		for(int i=21;i>0;i--) {
 			DrinkOrder o= new DrinkOrder(i,"coke"+i);
 			flight128.addOrder(o);
 		}
